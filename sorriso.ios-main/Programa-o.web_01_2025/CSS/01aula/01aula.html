@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        margin: 0 auto;
+        background-color: #5F5F5F;
+
+        
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+    .titulo{
+            margin-top: 110px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 110px;
+        width: 900px;
+        height: 850px;
+       
+        padding: 60px;
+        background-color: #E7E7E7; 
+        box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.308);
+
+        color: crimson;
+        text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.397);
+        text-align: center;
+        font-weight: bolder;
+       
+    }
+
+    .titulo h1{
+        font-size: 40px;
+        font-weight: 900;
+        margin-top: 40px;
+    }
+
+    .titulo p{
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+
+    div{
+        
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+         border-radius: 15px;
+        width: 500px;
+        height: 600px;
+        background-color: #E7E7E7;
+    }
+
+
+
+    div h2{
+        font-weight: 900;
+        font-size: 35px;
+    }
+
+    div label {
+        font-weight: 500;
+    }
+
+    div input{
+        width: 500px;
+        font-size: 20px;
+        color: #F2F2F2;
+        background-color: #E0E0E0;
+        border-radius: 10px;
+        border-bottom:solid 6px #000000;
+       padding: 15px;
+       transition: 2s;
+    }
+
+    div input:hover{
+       color: #F2F2F2;
+        
+       
+        transform: scale(1.1);
+    }
+
+    div button a{
+        color: crimson;
+        text-decoration: double;
+    }
+
+    div button{
+        font-weight: 800;
+        font-size: 20px;
+        border-radius: 40px;
+        width: 200px;
+        padding: 20px;
+        cursor: pointer;
+        margin: 20px;
+        transition: 1s;
+    }
+
+    div button:hover{
+        transition: 1s;
+        transform: scale(1.2);
+        background-color:  crimson;
+    }
+
+  
+</style>
+
+
+
+
+
+<body>
+
+    <div class="titulo">
+    <h1>Sorriso login</h1>
+    <p>Insira seu Nome ou Email, e uma Senha.</p>
+    
+    
+    <div>
+        <h2>Nome:</h2>
+        
+        <label for="nome">Insira seu Nome ou Email:</label>
+        <input type="email" name="nome" id="nome">
+
+        <h2>Senha:</h2>
+            <label for="senha">Insira sua Senha:</label>
+            <input type="password" name="senha" id="senha">
+
+           <a href=""> <button>login</button></a>
+           
+    </div>
+
+
+
+</div>
+
+
+</body>
+</html>
