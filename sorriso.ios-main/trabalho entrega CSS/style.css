@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+header{
+   
+    
+    background-color: aquamarine;
+}
+
+header img{
+    width: 50px;
+}
+
+nav{
+    
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 60px;
+    
+
+
+    margin: 30px;
+    padding: 30px;
+
+
+    list-style: none;
+    background-color: aqua;
+}
+
+nav a {
+    text-decoration: none;
+}
