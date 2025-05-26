@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+
+        }
+
+        h1{
+            
+            text-align: center;
+            padding: 50px;
+        }
+
+        h2{
+            text-align: center;
+        }
+
+
+        form{
+            border-radius: 10px;
+            background-color: rgb(73, 73, 221);
+            width: 900px;
+            
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            margin: 0 auto;
+        }
+        
+
+        input {
+            
+    display: block;
+    margin: 40px;
+    padding: 20px;
+    
+    
+            
+        }
+
+        label{
+            margin: 40px;
+            text-align: center;
+        }
+
+        #Gorilla{
+            transform: scale(1.9); /* Aumenta o tamanho */
+        }
+        #Colombia{
+            transform: scale(1.9); /* Aumenta o tamanho */
+        }
+        #Lemon{
+            transform: scale(1.9); /* Aumenta o tamanho */
+        }
+        #Crema{
+            transform: scale(1.9); /* Aumenta o tamanho */
+        }
+
+        
+        
+    </style>
+</head>
+
+<body>
+
+    <h1>SENSI DA FOIA AMERELA MAFUMAFU</h1>
+    <form action="mailto:ryanmoreira885@gmail.com" id="formulario" method="post">
+        
+            <label for="nomeUsuario" >Insira seu nome</label>
+            <input type="text" id="nomeUsuario">
+            <input type="submit" id="enviar" value="Enviar Formulario">
+            
+        
+       
+
+    
+         <label for="foiaamarela">Gorilla-chush</label>
+        <input type="radio" name="foiaamarela" id="Gorilla" value="Gorilla-Cush">
+        
+        <label for="foiaamarela">Colombia-Gold</label>
+        <input type="radio" name="foiaamarela" id="Colombia" value="Colombia-Gold">
+
+
+        <label for="foiaamarela">Lemon-Haze</label>
+        <input type="radio" name="foiaamarela" id="Lemon" value="Lemon-Haze">
+
+        <label for="foiaamarela" >Crema-Meleca</label>
+        <input type="radio" name="foiaamarela" id="Crema" value="Crema-Meleca">
+        
+        <h2>Justifique sua Foia</h2>
+        <textarea name="comentarasfoia" id="comentarydasfoia" cols="30" rows="10"></textarea>
+        
+    </form>
+
+
+
+
+</body>
+
+</html>
